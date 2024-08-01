@@ -2,6 +2,20 @@
 User Management API Documentation
 
 This API provides endpoints for managing user accounts.
+# To start the server
+### Without Docker
+- **Create VIRTUAL ENV:** `python -m venv .venv`
+- **Activate the environment:** 
+ - `source .venv/bin/activate` for linux
+ - `source .venv/scripts/activate` for windows (Using git bash is preffered)
+- **Install Dependencies:** `pip install -r requirements.txt`
+- **Start Server:** `python run_server.py`
+
+### With Docker
+- **`docker compose up`
+
+
+
 ## Base URL
 
 http://127.0.0.1:5000
